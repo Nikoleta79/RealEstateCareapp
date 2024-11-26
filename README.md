@@ -1,3 +1,16 @@
+
+
+![phonecase](https://github.com/user-attachments/assets/7cd110ef-3f4a-4314-94f2-e15dc9665034)
+
+
+
+Website: https://protypeb.netlify.app/home
+email: codyvandijk@realestatecare.com
+password: admin123
+authetication code: 123456
+
+
+
 RealEstateCare - Vue 3 with Ionic and Pinia
 
 This is a mobile-friendly app built with Vue 3, Ionic, and Pinia for managing inspections and maintenance tasks in the RealEstateCare platform. Users can view houses, track inspections (completed or pending),
