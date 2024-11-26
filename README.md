@@ -33,7 +33,7 @@ The RealEstateCare app includes the following features:
 
 House Listings: View all houses and their details.
 
-Inspections:
+Inspections.
 
 Track completed inspections.
 
@@ -62,9 +62,9 @@ Security
 
 Authentication: The app handles user authentication via Pinia state management. It includes a secure login system and a logout feature, ensuring that user sessions are managed properly.
 
-Data Privacy: Sensitive user data, such as passwords, should be securely encrypted in production environments to prevent unauthorized access.
+Data Privacy: Sensitive user data, such as passwords, should be secured in production environments to prevent unauthorized access.
 
-Session Management: Secure methods like tokens or sessions are used to persist user data across app reloads, ensuring consistent access and security.
+Session Management: Secure methods like sessions are used to persist user data across app reloads, ensuring consistent access and security.
 
 Netlify offers free HTTPS, which is automatically used for this app as well.
 
@@ -77,7 +77,7 @@ Style
 
 Design Framework: The app uses Ionic for a responsive, mobile-first design that adapts to both mobile and desktop devices.
 
-Theming: The app supports light and dark modes, with a custom theme applied to maintain visual consistency across various screens.
+Theming: The app supports  custom theme applied to maintain visual consistency across various screens.
 
 UI Elements: Ionic’s UI components (like <ion-button>, <ion-input>, <ion-list>) are used to create a polished, native-like experience on mobile devices.
 
