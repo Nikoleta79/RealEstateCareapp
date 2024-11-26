@@ -8,6 +8,9 @@ manage damages, maintenance, installation, and modifications, as well as update 
 
 To get started, clone the repository and install the dependencies:
 
+git clone <repository-url>
+
+
 npm install
 
 npm run dev
