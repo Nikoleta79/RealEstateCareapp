@@ -66,6 +66,8 @@ Data Privacy: Sensitive user data, such as passwords, should be securely encrypt
 
 Session Management: Secure methods like tokens or sessions are used to persist user data across app reloads, ensuring consistent access and security.
 
+Netlify offers free HTTPS, which is automatically used for this app as well.
+
 Accessibility
 
 Keyboard Navigation: The app supports keyboard navigation, ensuring that all interactive elements can be accessed and operated using a keyboard.
