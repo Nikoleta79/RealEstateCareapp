@@ -110,4 +110,4 @@ const handleSettingsClick = () => {
 .icon-container span {
   margin-top: 10px;
 }
-</style>
+</style> 
