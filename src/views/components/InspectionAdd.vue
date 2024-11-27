@@ -307,14 +307,14 @@ const showModificationsForm = ref(false);
 const showToast = ref(false);
 const toastMessage = ref("");
 
-const handlePageChange = (page) => {
+const handlePageChange = ( ) => {
   window.showScheduled(); // Change the main content to ScheduledNow component
 };
 
-const handleCancelClick = () => {
+function handleCancelClick() {
   showToast.value = true;
   toastMessage.value = "Inspection canceled";
-};
+}
 
 const handleSaveClick = () => {
   showToast.value = true;
