@@ -5,7 +5,7 @@
         style="width: 90%; max-width: 800px; margin-top: 20px;"
     >
       <!-- Profile Settings Form -->
-      <form @submit.prevent="handleSaveSettings" style="width: 100%;">
+      <form @submit.prevent="handleSaveSettings" style="width: 100%;" aria-labelledby="profile-settings-form">
         <h2>Profile Settings</h2>
         <div class="mb-3">
           <label for="firstname" class="form-label">Firstname</label>
@@ -105,6 +105,8 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import axios from "axios";
 import { useAuthStore } from "@/stores/auth"; // Import Pinia store
+
+
 
 // Router and Data
 const router = useRouter();
