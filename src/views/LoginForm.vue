@@ -29,7 +29,7 @@
     <header>
       <div class="d-flex justify-content-between align-items-center dashboard-toolbar">
         <div class="d-flex align-items-center">
-          <img src="@/assets/logo.svg" alt="Real Estate Care Logo" class="logo-style" />
+          <img src="@/assets/logo.svg" alt="it is the Real Estate Care Logo" class="logo-style" />
         </div>
       </div>
     </header>
@@ -158,6 +158,7 @@ import { ref, nextTick } from "vue";
 import { useAuthStore } from "@/stores/auth"; // Import Pinia store
 import axios from "axios";
 import router from "@/router";
+import DOMPurify from 'dompurify';  // <-- Add this import here
 
 const authStore = useAuthStore();
 authStore.loadUserFromStorage();
@@ -172,13 +173,17 @@ const show2FAErrorToast = ref(false);
 
 const handleLogin = async () => {
   try {
+    // Sanitize email and password
+    const sanitizedEmail = DOMPurify.sanitize(email.value);
+    const sanitizedPassword = DOMPurify.sanitize(password.value);
+
     const response = await axios.get(
-        "https://my-json-server.typicode.com/Joshuaisikah/demo/users"
+      "https://my-json-server.typicode.com/Joshuaisikah/demo/users"
     );
     const users = response.data;
 
     const user = users.find(
-        (user) => user.email === email.value && user.password === password.value
+      (user) => user.email === sanitizedEmail && user.password === sanitizedPassword
     );
 
     if (user) {
@@ -207,6 +212,7 @@ const handle2FAValidation = async () => {
   }
 };
 </script>
+
 
 <style scoped>
 @import "@/theme/variables.css";
