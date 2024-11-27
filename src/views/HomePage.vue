@@ -4,7 +4,7 @@
     <Header />
 
     <!-- Dynamic Body -->
-    <ion-content class="ion-no-padding">
+    <ion-content class="ion-no-padding" aria-live="polite" aria-describedby="dynamic-content-description">
       <div
           id="dashboard"
           class="container-fluid d-flex flex-column text-dark dashboard-wrapper"
@@ -37,6 +37,7 @@ import SettingsUser from "./components/SettingsUser.vue"; // SettingsUser compon
 
 // Reference to current body component
 const currentBodyComponent = ref(MainContent);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const router = useRouter();
 
 // Function to update body content dynamically to Scheduled
