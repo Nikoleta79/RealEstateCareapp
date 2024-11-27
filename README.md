@@ -86,13 +86,43 @@ Accessibility
 Keyboard Navigation: The app supports keyboard navigation, ensuring that all interactive elements can be accessed and operated using a keyboard.
 
 
-Style
+Accessibility
+To ensure that the application is accessible to all users, we have followed key accessibility guidelines:
 
-Design Framework: The app uses Ionic for a responsive, mobile-first design that adapts to both mobile and desktop devices.
+Semantic HTML: Appropriate use of HTML elements like <button>, <header>, <footer>, and <nav> to provide context for assistive technologies.
+Keyboard Navigation: All interactive elements, including buttons and links, are fully navigable using a keyboard, and focus styles are provided to improve accessibility.
+ARIA Roles and Properties: The application utilizes ARIA roles and properties to enhance accessibility for users with disabilities.
+Color Contrast: A sufficient contrast ratio between text and background (black text on a white background) is ensured to meet accessibility standards.
+Text Alternatives: Alternative text is provided for images, videos, and other non-text content, ensuring that screen readers can describe these elements.
+Form Labels: All form controls are properly labeled using the for attribute to ensure that they are clearly associated with their respective input fields.
+Security
+The application adheres to security best practices to ensure that user data is protected:
 
-Theming: The app supports  custom theme applied to maintain visual consistency across various screens.
+Input Sanitization: User inputs are sanitized to prevent attacks such as SQL injection and XSS. For example, the login page implements input sanitization to ensure safe data handling.
+Authentication: Secure authentication mechanisms have been implemented, including the use of token-based authentication, to verify users and prevent unauthorized access.
+Testing: The application has undergone extensive testing to ensure that all security measures work as intended, providing a safe environment for users.
+Netlify & Ionic Security: The app leverages the security features provided by Netlify and Ionic, ensuring secure deployment and application management.
+Usability
+The application is designed with usability in mind, providing an intuitive experience for users:
 
-UI Elements: Ionic’s UI components (like <ion-button>, <ion-input>, <ion-list>) are used to create a polished, native-like experience on mobile devices.
+Login & Authentication: Upon login, users are required to complete a double authentication process to ensure that only authorized admins can access the system.
+Main Components: The app features four prominent components—Inspections, Knowledge Base, Settings, and Inspections—designed to be easily visible and accessible for users.
+Knowledge Base: When users click on the Knowledge Base section, they can access example documents, schedule inspections, and view necessary damages. A back button is available for users to navigate back to the previous page.
+Confirmation Messages: After performing an action, a confirmation message in green appears, notifying users of the successful completion of their tasks.
+Settings: In the Settings section, users can change their password and access helpful information about how the app works.
+Missing Feature: The only missing feature is the Contact Section, which will be added in future updates.
+Style Guides
+The application follows a consistent design style based on the provided style guide:
+
+Use of Bootstrap: The app utilizes Bootstrap for responsive layout and component styling.
+CSS Variables: Custom CSS variables are used to maintain consistent styling and ensure flexibility for future design changes.
+Typography: Legible fonts and appropriate font sizes are used to ensure readability.
+Spacing & Padding: Consistent spacing and padding have been applied to ensure that the layout is clean and user-friendly.
+Technology Stack
+Axios: Axios is used for making HTTP requests and handling data in JSON format.
+Ionic: Ionic provides the foundation for building mobile-friendly applications.
+Netlify: The app is deployed on Netlify, benefiting from its secure and reliable hosting services.
+
 
 Conclusion
 
