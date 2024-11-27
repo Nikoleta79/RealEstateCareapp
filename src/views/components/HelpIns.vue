@@ -87,4 +87,4 @@ export default {
     padding-bottom: 150px; /* Increase padding to ensure the last element is visible */
   }
 }
-</style>
+</style> 
