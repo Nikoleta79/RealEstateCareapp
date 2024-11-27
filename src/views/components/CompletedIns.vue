@@ -114,4 +114,4 @@ const handleViewInspection = (id) => {
 .btn-success:hover {
   background-color: #008f86;
 }
-</style>
+</style> 
