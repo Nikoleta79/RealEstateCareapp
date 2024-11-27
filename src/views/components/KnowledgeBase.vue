@@ -69,4 +69,4 @@ onMounted(fetchDocuments);
 .footer-text-grey {
   color: grey;
 }
-</style>
+</style> 
