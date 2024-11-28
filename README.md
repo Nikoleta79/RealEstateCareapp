@@ -112,7 +112,7 @@ The RealEstateCare app has been developed to provide a comprehensive solution fo
 ## Key Takeaways: 
 1. User-Focused Design: The app incorporates accessibility and usability best practices, ensuring that all users can easily navigate and interact with its features. From semantic HTML to keyboard navigation and color contrast adjustments, every detail has been considered for a seamless experience.
 
-2. Security and Authentication: The application follows  security guidelines to safeguard user data, including input sanitization, secure authentication, and comprehensive testing. It follows OWASP security guidelines, WCAG 2.1 accessibility guidelines.
+2. Security and Authentication: The application follows  security guidelines to safeguard user data, including input sanitization, secure authentication, and comprehensive testing. It follows OWASP security guidelines, WCAG 2.1 accessibility guidelines (A).
 
 3. Robust Functionality: The core features, such as house listings, inspections, maintenance tracking, and profile management, are complemented by a knowledge base and helpful informational resources, providing users with everything they need in one place.
 
