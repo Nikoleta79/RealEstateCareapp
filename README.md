@@ -2,7 +2,7 @@
 
 ![phonecase](https://github.com/user-attachments/assets/7cd110ef-3f4a-4314-94f2-e15dc9665034) A picture of how the app looks for phones
  
-# RealEstateCare - Vue 3 with Ionic and Pinia
+# RealEstateCare - Vue 3 with Ionic
 This is a mobile-friendly app built with Vue 3, Ionic, and Pinia for managing inspections and maintenance tasks in the RealEstateCare platform. Users can view houses, track inspections (completed or pending),
 manage damages, maintenance, installation, and modifications, as well as update their profile settings. Use the information to login: Website: [https://nikolereal.netlify.app/login](https://protypeb.netlify.app/home)
 email: codyvandijk@realestatecare.com
@@ -57,7 +57,7 @@ The app uses Vue Router to manage navigation between pages.
 
 # Accessibility
 
-The apps has created side bars so people can use it for better scroll, go back buttons for better use and usage of the app, dark mode and light mode. Both of them have contrast on text so it can be accessible for all users. Notifications have also be activated to be updated, also alert messages when you fail to login or when you go back to the dashboard or when you change your password. Letting the user know what they are doing. Moreover to ensure that the application is accessible to all users, I have followed key accessibility guidelines:
+It has created side bars so people can use it for better scroll, go back buttons for better use and usage of the app, dark mode and light mode. Both of them have contrast on text so it can be accessible for all users. Notifications have also be activated to be updated, also alert messages when you fail to login or when you go back to the dashboard or when you change your password. Letting the user know what they are doing. Moreover to ensure that the application is accessible to all users, I have followed key accessibility guidelines:
 
 1. Semantic HTML: Appropriate use of HTML elements like < button>, < header>, < footer>, and < nav> to provide context for assistive technologies.
 2. Keyboard Navigation: All interactive elements, including buttons and links, are  navigable using a keyboard or mouse, and focus styles are provided to improve accessibility.
@@ -75,6 +75,7 @@ The application adheres to security best practices to ensure that user data is p
 3. Testing: The application has undergone extensive testing to ensure that all security measures work as intended, providing a safe environment for users.
 4. Netlify & Ionic Security: The app leverages the security features provided by Netlify and Ionic, ensuring secure deployment and application management.
 5. DOMPurify has been used to help secure web applications by sanitizing HTML and preventing malicious code from being executed in the browser. It is  used to protect against Cross-Site Scripting (XSS) attacks
+6. The password is also hidden for extra security.
 
 # Usability
 The application is designed with usability in mind, providing an intuitive experience for users:
