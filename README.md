@@ -7,7 +7,8 @@ This is a mobile-friendly app built with Vue 3, Ionic, and Pinia for managing in
 manage damages, maintenance, installation, and modifications, as well as update their profile settings. Use the information to login: Website: [https://nikolereal.netlify.app/login](https://protypeb.netlify.app/home)
 email: codyvandijk@realestatecare.com
 password: admin123
-authentication code: 123456
+authentication code: 123456 
+(Please note that these accounts are fictitious and intended for demonstration purposes)
 
 # To get started, clone the repository and install the dependencies:
 git clone <repository-url>
