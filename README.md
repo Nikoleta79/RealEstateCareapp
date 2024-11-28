@@ -2,9 +2,12 @@
 
 ![phonecase](https://github.com/user-attachments/assets/7cd110ef-3f4a-4314-94f2-e15dc9665034)
 
+# Heading 1
+## Heading 2
+### Heading 3
 
 
-#Website: https://nikolereal.netlify.app/login
+Website: https://nikolereal.netlify.app/login
 email: codyvandijk@realestatecare.com
 password: admin123
 authetication code: 123456
