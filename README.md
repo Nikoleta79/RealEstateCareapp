@@ -58,7 +58,7 @@ The app uses Vue Router to manage navigation between pages.
 
 The apps has created side bars so people can use it for better scroll, go back buttons for better use and usage of the app, dark mode and light mode. Both of them have contrast on text so it can be accessible for all users. Notifications have also be activated to be updated, also alert messages when you fail to login or when you go back to the dashboard or when you change your password. Letting the user know what they are doing. Moreover to ensure that the application is accessible to all users, I have followed key accessibility guidelines:
 
-1. Semantic HTML: Appropriate use of HTML elements like <button>, <header>, <footer>, and <nav> to provide context for assistive technologies.
+1. Semantic HTML: Appropriate use of HTML elements like < button>, < header>, < footer>, and < nav> to provide context for assistive technologies.
 2. Keyboard Navigation: All interactive elements, including buttons and links, are  navigable using a keyboard or mouse, and focus styles are provided to improve accessibility.
 3. ARIA Roles and Properties: The application utilizes ARIA roles and properties to enhance accessibility for users with disabilities.
 4. Color Contrast: A sufficient contrast ratio between text and background (black text on a white background) is ensured to meet accessibility standards, or when you click on an element the element becomes white
