@@ -35,7 +35,6 @@ Webpack, API, JSON, Axios
 
 The RealEstateCare app includes the following main features as soon as you login to the dashboard page:
 
-House Listings: View all houses and their details.
 
 1. Inspections: Track completed inspections, view pending inspections that need to be done, add maintenance issues such as damages, installations, and modifications.
 
