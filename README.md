@@ -1,7 +1,7 @@
 
 
 ![phonecase](https://github.com/user-attachments/assets/7cd110ef-3f4a-4314-94f2-e15dc9665034) A picture of how the app looks for phones
-
+ 
 # RealEstateCare - Vue 3 with Ionic and Pinia
 This is a mobile-friendly app built with Vue 3, Ionic, and Pinia for managing inspections and maintenance tasks in the RealEstateCare platform. Users can view houses, track inspections (completed or pending),
 manage damages, maintenance, installation, and modifications, as well as update their profile settings. Use the information to login: Website: [https://nikolereal.netlify.app/login](https://protypeb.netlify.app/home)
