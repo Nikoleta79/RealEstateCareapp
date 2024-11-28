@@ -109,7 +109,7 @@ In general I have followed WCAG 2.1 but I could add more keyword accessibility i
 # Conclusion
 
 The RealEstateCare app has been developed to provide a comprehensive solution for managing inspections, maintenance tasks, and user profiles in a mobile-friendly environment. By leveraging the power of Vue 3, Ionic, and Pinia, the app ensures a smooth and responsive experience across devices, with an intuitive interface that meets both user and business needs. 
-## Key Takeaways:
+## Key Takeaways: 
 1. User-Focused Design: The app incorporates accessibility and usability best practices, ensuring that all users can easily navigate and interact with its features. From semantic HTML to keyboard navigation and color contrast adjustments, every detail has been considered for a seamless experience.
 
 2. Security and Authentication: The application follows  security guidelines to safeguard user data, including input sanitization, secure authentication, and comprehensive testing. It follows OWASP security guidelines, WCAG 2.1 accessibility guidelines.
