@@ -23,10 +23,6 @@
 </template>
 
 <script>
-// import AppHeader, AppFooter, and NoWifiModal components
-import AppHeader from '@/views/components/template/HeaderOne.vue'
-import AppFooter from '@/views/components/template/FooterOne.vue'
-import NoWifiModal from '@/views/components/template/Net.vue'
 import store from './store/auth.js'
 // Import axios library for making HTTP requests
 import axios from 'axios'
@@ -36,20 +32,7 @@ import mainStyle from './assets/css/main.css?url'
 import darkStyle from './assets/css/dark.css?url'
 
 export default {
-  components: {
-    AppHeader,
-    AppFooter,
-    NoWifiModal
-  },
-  created() {
-    this.saveOfflineInspections();
-    this.checkStoredTheme();
-  },
-  mounted() {
-    window.addEventListener('online', this.saveOfflineInspections);
-    this.updateBodyClass();
-  },
-  data() {
+    data() {
     return {
       // Flag to show/hide the offline toast message
       showOfflineToast: false,
@@ -160,4 +143,3 @@ export default {
   }
 }
 </script>
-
