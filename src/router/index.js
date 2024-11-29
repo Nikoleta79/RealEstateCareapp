@@ -1,30 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Ionic App</title>
+import { createRouter, createWebHistory } from 'vue-router'
 
-    <base href="/" />
+const router = createRouter({
+    history: createWebHistory(import.meta.env.BASE_URL), //creating a web history with the base URL
+    routes: [
+        {
+            path: '/:catchAll(.*)',
+            redirect: '/'
+        },  
+        {
+            path: '/', //when user navigates to the root path
+            name: 'home', //name of the route
+            component: () => import('../views/dashboardMain.vue') //lazy loading the component
+        },
+        {
+            path: '/completed', //when user navigates to the /completed path
+            name: 'completed', 
+            component: () => import('../views/completedIns.vue') //lazy loading the component
+        },
+        {
+            path: '/help', //when user navigates to the /help path
+            name: 'Information',
+            component: () => import('../views/InformationIns.vue') //lazy loading the component
+        },
+        {
+            path: '/knowledge-base', //when user navigates to the /knowledge-base path
+            name: 'knowledge-base',
+            component: () => import('../views/knowledge-base.vue') //lazy loading the component
+        },
+        {
+            path: '/scheduled', //when user navigates to the /scheduled path
+            name: 'scheduled',
+            component: () => import('../views/scheduledIns.vue') //lazy loading the component
+        },
+        {
+            path: '/search', //when user navigates to the /search path
+            name: 'search',
+            component: () => import('../views/searchIns.vue') //lazy loading the component
+        },
+        {
+            path: '/settings', //when user navigates to the /settings path
+            name: 'settings',
+            component: () => import('../views/settingsUser.vue') //lazy loading the component
+        },
+        {
+            path: '/login', //when user navigates to the /login path
+            name: 'login',
+            component: () => import('../views/loginIns.vue') //lazy loading the component
+        },
+        {
+            path: '/inspections/', //when user navigates to the /inspections path
+            name: 'inspections',
+            component: () => import('../views/inspectionsIns.vue'), //lazy loading the component
+        },
+        {
+            path: '/inspection/', //when user navigates to the /inspection path
+            name: 'inspection',
+            component: () => import('../views/inspectionIns.vue'), //lazy loading the component
+        },
+    ],
+})
 
-    <meta name="color-scheme" content="light dark" />
-    <meta
-      name="viewport"
-      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-
-    <!-- add to homescreen for ios -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Ionic App" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  </head>
-
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
-
-</html>
+export default router
