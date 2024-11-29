@@ -1,33 +1,90 @@
 <template>
-  <main class="container" aria-label="Getting Started">
-    <h2 class="my-3" aria-label="Getting Started">Getting Started</h2>
-    <ul class="list-group">
-      <li class="list-group-item" aria-label="Download the RealEstateCare app from the App Store or Google Play.">Download the RealEstateCare app from the App Store or Google Play.</li>
-    </ul>
+  <ion-content>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Getting Started</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
-    <h2 class="my-3" aria-label="Scheduled Inspections">Scheduled Inspections</h2>
-    <ul class="list-group">
-      <li class="list-group-item" aria-label="From the main dashboard, click on Scheduled Inspections to view a list of all the addresses that have been assigned to you.">From the main dashboard, click on "Scheduled Inspections" to view a list of all the addresses that have been assigned to you.</li>
-    </ul>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          Download the RealEstateCare app from the App Store or Google Play.
+        </ion-label>
+      </ion-item>
+    </ion-list>
 
-    <h2 class="my-3" aria-label="Completed Inspections">Completed Inspections</h2>
-    <ul class="list-group">
-      <li class="list-group-item" aria-label="From the main dashboard, click on Completed Inspections to view a list of all the addresses that you have completed inspections for.">From the main dashboard, click on "Completed Inspections" to view a list of all the addresses that you have completed inspections for.</li>
-    </ul>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Scheduled Inspections</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
-    <h2 class="my-3" aria-label="Knowledge Base">Knowledge Base</h2>
-    <ul class="list-group">
-      <li class="list-group-item" aria-label="From the main dashboard, click on Knowledge Base to access a variety of helpful documents and resources.">From the main dashboard, click on "Knowledge Base" to access a variety of helpful documents and resources.</li>
-    </ul>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          From the main dashboard, click on "Scheduled Inspections" to view a list of all the addresses that have been assigned to you.
+        </ion-label>
+      </ion-item>
+    </ion-list>
 
-    <h2 class="my-3" aria-label="Settings">Settings</h2>
-    <ul class="list-group">
-      <li class="list-group-item" aria-label="From the main dashboard, click on Settings to access your profile information, change your password, and customize your notification preferences.">From the main dashboard, click on "Settings" to access your profile information, change your password, and customize your notification preferences.</li>
-    </ul>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Completed Inspections</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
-    <h2 class="my-3" aria-label="Additional Support">Additional Information</h2>
-    <p aria-label="If you have any issues or questions about using the RealEstateCare app, please contact our support team at team@realestatecare.com. We are happy to help!">for any issue complain or help please reach us out at  <a href="mailto:team@realestatecare.com">team@realestatecare.com</a>. </p>
-    <router-link :to="{ name: 'home' }" class="btn btn-danger mt-3" style="margin-right: 20px;" aria-label="Go back to the dashboard">Go back</router-link>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          From the main dashboard, click on "Completed Inspections" to view a list of all the addresses that you have completed inspections for.
+        </ion-label>
+      </ion-item>
+    </ion-list>
 
-  </main>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Knowledge Base</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          From the main dashboard, click on "Knowledge Base" to access a variety of helpful documents and resources.
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Settings</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          From the main dashboard, click on "Settings" to access your profile information, change your password, and customize your notification preferences.
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Additional Information</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-text>
+      <p>
+        For any issues, complaints, or help, please reach out to us at 
+        <a href="mailto:team@realestatecare.com">team@realestatecare.com</a>.
+      </p>
+    </ion-text>
+
+    <ion-router-link :to="{ name: 'home' }" class="ion-button ion-button-danger mt-3">
+      Go back
+    </ion-router-link>
+  </ion-content>
 </template>
