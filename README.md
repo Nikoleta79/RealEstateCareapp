@@ -4,7 +4,7 @@ A picture of how the app looks for phones
 # RealEstateCare - Vue 3 with Ionic
 
 This is a mobile-friendly app built with Vue 3, Ionic, and Pinia for managing inspections and maintenance tasks in the RealEstateCare app. Users can view houses, track inspections (completed or pending),
-manage damages, maintenance, installation, and modifications, as well as update their profile settings. Use the information to login: Website: https://realestatecareapponline.netlify.app/home
+manage damages, maintenance, installation, and modifications, as well as update their profile settings. Use the information to login: Website: https://realestatecareapponline.netlify.app
 email: codyvandijk@realestatecare.com
 password: admin1234
 authentication code: 123456
@@ -31,7 +31,7 @@ Pinia - State management
 
 Vue Router - Router for navigation between pages
 
-API, JSON, Axios, Javascript, HTML, CSS, Bootstrap
+Javascript, HTML, CSS, Bootstrap
 
 # App Features
 
