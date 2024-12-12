@@ -15,6 +15,7 @@ git clone <repository-url>
 
 ## Project setupp:
 
+(install node.js package in case you don't have it )
 npm install
 
 ## Compiles and hot-reloads for development:
@@ -25,13 +26,13 @@ npm run dev
 
 Vue 3 - JavaScript framework for building user interfaces
 
-Ionic - Framework for building mobile-first web apps with Vue
+Ionic Vue - Framework for building mobile-first web apps with Vue
 
 Pinia - State management
 
 Vue Router - Router for navigation between pages
 
-API, JSON, Axios, Javascript, HTML, CSS, Bootstrap
+API, JSON, Axios, Javascript, HTML, CSS, Bootstrap, javascript promises and callbacks
 
 # App Features
 
