@@ -1,7 +1,0 @@
-{
-  "name": "my-new-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue-vite"
-}
