@@ -11,11 +11,12 @@ authentication code: 123456
 
 # To get started, clone the repository and install the dependencies:
 
+(First donwload node.js lts if you do not have it to work with npm run dev)
+
 git clone <repository-url>
 
 ## Project setupp:
 
-(install node.js package in case you don't have it )
 npm install
 
 ## Compiles and hot-reloads for development:
@@ -26,13 +27,13 @@ npm run dev
 
 Vue 3 - JavaScript framework for building user interfaces
 
-Ionic Vue - Framework for building mobile-first web apps with Vue
+Ionic - Framework for building mobile-first web apps with Vue
 
 Pinia - State management
 
 Vue Router - Router for navigation between pages
 
-API, JSON, Axios, Javascript, HTML, CSS, Bootstrap, javascript promises and callbacks
+API, JSON, Axios, Javascript, HTML, CSS, Bootstrap, promises, callbacks, JSON.
 
 # App Features
 
@@ -58,7 +59,7 @@ The app uses Vue Router to manage navigation between pages.
 
 # Accessibility
 
-It it possible for keboard users, go back buttons for better use and usage of the app, dark mode and light mode. Both of them have contrast on text so it can be accessible for all users. Notifications have also be activated to be updated, also alert messages when you fail to login or when you go back to the dashboard or when you change your password. Letting the user know what they are doing. Moreover to ensure that the application is accessible to all users, I have followed key accessibility guidelines:
+It it possible to use the go back buttons for better use and navigation of the app, dark mode and light mode. Both of them have contrast on text so it can be accessible for all users. Notifications have also be activated to be updated, also alert messages when you fail to login or when you go back to the dashboard or when you change your password. Letting the user know what they are doing. Moreover to ensure that the application is accessible to all users, I have followed key accessibility guidelines:
 
 1. Semantic HTML: Appropriate use of HTML elements like < button>, < header>, < footer>, and < nav> to provide context for assistive technologies.
 2. Keyboard Navigation: All interactive elements, including buttons and links, are navigable using a mouse, and focus styles are provided to improve accessibility.
@@ -66,8 +67,9 @@ It it possible for keboard users, go back buttons for better use and usage of th
 4. Color Contrast: A sufficient contrast ratio between text and background (black text on a white background) is ensured to meet accessibility standards, or when you click on an element the element becomes white
 5. Text Alternatives: Alternative text is provided for the 4 big elements in the dashboard , so the user screen can have better access and read it.
 6. Form Labels: All form controls are properly labeled using the "for" or "v-for" attribute to ensure that they are clearly associated with their respective input fields.
-7. it has been especially created to be responsive, so the users can access from any device. It supports screen reader users like provided with <alt> description of icons. structured content in html like <h1> etc. Descriptive links in the section of informtion so they can easily find the email and contnact in case of any problem. 
+7. it has been especially created to be responsive, so the users can access from any device. It supports screen reader users like provided with <alt> description of icons. structured content in html like <h1> etc. Descriptive links in the section of informtion so they can easily find the email and contnact in case of any problem.
 8. The website was tested from Lighthouse Google extension for usability, accessibility.
+9. Vue router and stata management pinia has been used to navigate in pages and to make accessible for users.
 
 # Security
 
@@ -76,8 +78,8 @@ The application adheres to security best practices to ensure that user data is p
 1. Authentication: Secure authentication mechanisms have been implemented.
 2. Testing: The application has undergone testing to ensure that all security measures work as intended, providing a safe environment for users.
 3. Netlify & Ionic Security: The app leverages the security features provided by Netlify and Ionic, ensuring secure deployment and application management.
-4. The password is using API key, indicating that the data is private and requires authentication, is hashed, tokens were used. 
-5. Aria was also used.
+4. The password is using API key, indicating that the data is private and requires authentication, is hashed, tokens were used.
+5. Aria was also used for extra security.
 
 # Usability
 
@@ -89,7 +91,7 @@ The application is designed with usability in mind, providing an intuitive exper
 4. Confirmation Messages: After performing an action, a confirmation message in green appears, notifying users of the successful completion of their tasks.
 5. Settings: In the Settings section, users can change their password and access helpful information about how the app works.
 6. It has been also tested from various browsers to give the best experience. Buttons have programatically names.
-7. Missing Features: The missing features are: to make it more accessible to keyboard, add actual sound for the screen readers, being able to add more languages (I picked english because a wide range of users have a understanding of english) As some features were new to me, I am still learning and implementing them slowly.
+7. Missing Features: The missing features are: to make it more accessible to keyboard, add actual sound for the screen readers, being able to add more languages (I picked english because a wide range of users have a understanding of english) As some features were new to me, I am still learning and implementing them slowly. And also some buttons that go backward and forward are not working properly, need to click 2 times or it takes you to a different page.
 
 # Style Guides
 
