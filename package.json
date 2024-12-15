@@ -1,0 +1,33 @@
+{
+  "name": "my-realestateapp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@ionic/core": "^8.4.1",
+    "@ionic/vue": "^8.4.1",
+    "@ionic/vue-router": "^8.4.1",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "file-saver": "^2.0.5",
+    "file-server": "^2.2.1",
+    "ionicons": "^7.4.0",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5"
+  }
+}
