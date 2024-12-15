@@ -33,6 +33,8 @@ Pinia - State management
 
 Vue Router - Router for navigation between pages
 
+Capacitor for better app usage 
+
 API, JSON, Axios, Javascript, HTML, CSS, Bootstrap, promises, callbacks, JSON.
 
 # App Features
@@ -104,6 +106,35 @@ The application follows a consistent design style based on the provided style gu
    Still there is room for improvement to make it easier for user, the user to use keyboard to nagigate. Or add messages, or alerts in case the user has no internet, or a page that was not found, real sounds reading the texts so the reader screens can have an easier access.
 
 In general I have followed WCAG 2.1 (level A) and OWASP .
+
+
+# Assessment Summary:
+
+Front-End Framework Selection
+I selected Vue.js combined with Ionic for the project, ensuring a responsive design and mobile-first approach. This combination is ideal for the project's needs and provides efficient tools for building the user interface.
+
+Development Tools
+For the development environment, I set up Visual Studio Code with the necessary extensions, and I configured Node.js for managing dependencies like Axios. This setup supports smooth project development.
+
+Design Patterns
+I applied the MVC pattern in my project, using Pinia as the state management store and structuring the components in a way that separates logic from the user interface. Additionally, I utilized the Singleton pattern for managing authentication.
+
+Custom Components and Libraries
+I created custom Vue components for various parts of the application and integrated third-party libraries like Ionic to enhance the UI. The library provides responsive and interactive components such as buttons, spinners, and toolbars, which improve the user experience.
+
+Asynchronous Programming
+I implemented asynchronous programming using axios to make API requests. I used async/await for handling asynchronous data fetching in the created hook of the component, ensuring smooth data retrieval and error handling through try-catch blocks.
+
+JSON Integration
+I integrated JSON data from an external API and used it within the application. The data is properly structured and fetched dynamically to ensure smooth and efficient data exchange between the app and the API.
+
+Routing and State Management
+I used Vue Router to handle navigation between different components and Pinia for managing the application’s state. This allows for efficient state updates and seamless transitions between pages within the app.
+
+Security, Accessibility, and Usability
+I followed best practices for security by ensuring safe handling of user data. I also made the app accessible by including ARIA attributes and following WCAG guidelines, ensuring the app is usable for all users. Additionally, the app’s usability was a focus, with an intuitive design and easy navigation.
+
+
 
 # Technology Stack
 
