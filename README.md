@@ -93,7 +93,7 @@ The application is designed with usability in mind, providing an intuitive exper
 4. Confirmation Messages: After performing an action, a confirmation message in green appears, notifying users of the successful completion of their tasks.
 5. Settings: In the Settings section, users can change their password and access helpful information about how the app works.
 6. It has been also tested from various browsers to give the best experience. Buttons have programatically names.
-7. Missing Features: The missing features are: to make it more accessible to keyboard, add actual sound for the screen readers, being able to add more languages (I picked english because a wide range of users have a understanding of english) As some features were new to me, I am still learning and implementing them slowly. And also some buttons that go backward and forward are not working properly, need to click 2 times or it takes you to a different page.
+7. Missing Features: The missing features are: to make it more accessible to keyboard, add actual sound for the screen readers, being able to add more languages (I picked english (but you can also switch to dutch in settings) because a wide range of users have a understanding of english) As some features were new to me, I am still learning and implementing them slowly. And also some buttons that go backward and forward are not working properly, need to click 2 times or it takes you to a different page. And I would also have not been able to translate the whole page in different labguages, i have set as demonstration the switch from english to dutch language. 
 
 # Style Guides
 
@@ -132,7 +132,7 @@ Routing and State Management
 I used Vue Router to handle navigation between different components and Pinia for managing the application’s state. This allows for efficient state updates and seamless transitions between pages within the app.
 
 Security, Accessibility, and Usability
-I followed best practices for security by ensuring safe handling of user data. I also made the app accessible by including ARIA attributes and following WCAG guidelines, ensuring the app is usable for all users. Additionally, the app’s usability was a focus, with an intuitive design and easy navigation.
+I followed best practices for security by ensuring safe handling of user data. I also made the app accessible by including ARIA attributes and following WCAG guidelines, ensuring the app is usable for all users.
 
 
 
